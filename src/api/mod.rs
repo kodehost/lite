@@ -1,8 +1,6 @@
 // api/mod.rss
 use axum::{Json, response::IntoResponse};
 
-use serde_json::Value;
-
 pub mod router;
 
 pub async fn health_checker_handler() -> impl IntoResponse {
